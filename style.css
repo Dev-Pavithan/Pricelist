@@ -1,14 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: aqua;
+    background-color: rgba(144, 248, 248, 0.61);
 }
 
 .plan {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px;
+    padding: 80px 70px;
     border: 1px solid #ddd;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -18,7 +18,7 @@ body {
 
 .top {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .row {
@@ -29,9 +29,9 @@ body {
 
 }
 .popular{
-    border: 1px solid #ccc;
-     padding: 20px 80px; 
+     border: 1px solid #a5a3a3;
      border-radius: 5px; 
+     padding: 20px;
      background-color: #4CAF50;
      margin-top: -170px;
      border-radius: 10px;
@@ -78,9 +78,10 @@ button:hover {
 .plan-pro {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
-
 }
-
+h2, h1{
+    text-align: center;
+}
 .plan div {
     background-color: transparent;
     padding: 40px;
@@ -117,7 +118,7 @@ button:hover {
     box-shadow: 1px 1px 20px rgba(201, 208, 209, 0.226),
         1px 1px 40px #464d4783;
     background-color: #fff;
-    border: 5px solid #4CAF50;
+    border: 2px solid #4CAF50;
 }
 
 /* Media queries for mobile devices */
